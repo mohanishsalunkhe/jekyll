@@ -1,9 +1,11 @@
+[![](https://images.microbadger.com/badges/image/woodlandh/dockyll-s3.svg)](https://microbadger.com/images/woodlandh/dockyll-s3 "Get your own image badge on microbadger.com")
+
 # dockyll-s3
 Jekyll and s3_website in a Docker container.
 
 ###WARNING
 
-1GB Docker image size. I've made no attempt (yet) to minimize it. Sorry! Didn't see an easy ruby+java win. Maaaaybe it should be two containers... whoops.
+Large Docker image size. I've made no attempt (yet) to minimize it. Sorry! Didn't see an easy ruby+java win. Maaaaybe it should be two containers... whoops.
 
 ###Versions
 
