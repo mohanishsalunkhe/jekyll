@@ -10,6 +10,8 @@ RUN apt-get update \
   && rm -rf /var/lib/apt/lists/
 
 RUN mkdir -p /usr/install
+RUN mkdir -p /src/_posts
+RUN aws s3 cp s3://jkyll-docker/s3_website.yml /src/s3_website.yml
 WORKDIR /usr/install
 COPY Gemfile /usr/install
 COPY Gemfile.lock /usr/install
